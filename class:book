@@ -1,0 +1,10 @@
+class Book():
+    def __init__(self, Title="Book1", Author="Some Dude", Year="2020"):
+        self.Title=Title
+        self.Author=Author
+        self.Year=Year
+
+    def ShowDetails(self):
+        print ("Title:\t", self.Title)
+        print ("Author:\t", self.Author)
+        print ("Year:\t", self.Year)
